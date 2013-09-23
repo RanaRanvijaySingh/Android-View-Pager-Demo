@@ -10,8 +10,10 @@ import com.webonise.viewpagerdemo.R;
 
 public class MyAdapter extends FragmentPagerAdapter {
 
+
 	public MyAdapter(FragmentManager supportFragmentManager) {
 		super(supportFragmentManager);
+		
 	}
 
 	@Override

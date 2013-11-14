@@ -8,24 +8,22 @@ ______________________________________________________________________________
 ______________________________________________________________________________
 Step 1  : In the main layout “activity_main.xml ”
 
-
-
- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+ 	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	 xmlns:tools="http://schemas.android.com/tools"
+	 android:layout_width="match_parent"
+	 android:layout_height="match_parent"
+	  android:paddingBottom="@dimen/activity_vertical_margin"
+	 android:paddingLeft="@dimen/activity_horizontal_margin"
+	 android:paddingRight="@dimen/activity_horizontal_margin"
+	 android:paddingTop="@dimen/activity_vertical_margin"
+	 tools:context=".MainActivity" >
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_height="match_parent"
         android:layout_width="match_parent" />
 
-</RelativeLayout>
+	</RelativeLayout>
 
 ______________________________________________________________________________
 ______________________________________________________________________________
@@ -42,20 +40,21 @@ ______________________________________________________________________________
 
 
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical" >
-    <TextView android:id="@+id/textViewDetails"
-        android:layout_height="match_parent"
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical" >
+    	<TextView android:id="@+id/textViewDetails"
+	 android:layout_height="match_parent"
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal|center_vertical"
         android:layout_marginTop="20dip"
         android:text="Large Text"
-       android:textAppearance="?android:attr/textAppearanceLarge"
-       android:textSize="25dip"/>
+	 android:textAppearance="?android:attr/textAppearanceLarge"
+	  android:textSize="25dip"/>
 
-</LinearLayout>
+	</LinearLayout>
 
 ______________________________________________________________________________
 ______________________________________________________________________________

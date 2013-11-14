@@ -3,7 +3,6 @@ Android-View-Pager-Demo
 This is a demonstration for creating a page view in an application.<br/>
 The steps to follow are very simple and easy to understand .<br/>
 The sample code can be downloaded from this git id :<br/>
-https://github.com/ranvijaySingh-Webonise/Android-View-Pager-Demo<br/>
 <br/>
 ______________________________________________________________________________
 ______________________________________________________________________________
